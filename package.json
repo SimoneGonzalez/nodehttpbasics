@@ -1,0 +1,16 @@
+{
+  "name": "nodehttpbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/unit --recursive",
+    "test-integration": "mocha test/integration --recursive"
+  },
+  "author": "simone gonzalez <simone.b.gonzalez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
